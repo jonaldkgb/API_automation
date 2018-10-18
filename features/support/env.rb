@@ -1,6 +1,6 @@
 require 'rubygems'
 require File.dirname(__FILE__) + '/test_config'
-require_relative 'testconfig'
+require_relative 'test_config'
 
 require 'httparty'
 require 'uri'
