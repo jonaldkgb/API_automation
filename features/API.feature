@@ -11,3 +11,9 @@ Feature: API
     Given I want to get a single user
     When I send an api GET single user request
     Then the user details are retrieved
+
+  @api_post
+  Scenario: api post
+    Given I want to post a user
+    When I send an api request
+    Then the user is added
